@@ -4,5 +4,10 @@ public class PlayerBullet extends Character{
 		
 		super(x,y,vx,vy);
 	}
+	public void draw(MyFrame f) {
+		f.setColor(90,128,90);
+		f.fillRect(x, y, 30, 30);
+		
+	}
 
 }
