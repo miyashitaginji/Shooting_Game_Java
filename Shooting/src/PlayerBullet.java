@@ -5,8 +5,8 @@ public class PlayerBullet extends Character{
 		super(x,y,vx,vy);
 	}
 	public void draw(MyFrame f) {
-		f.setColor(90,128,90);
-		f.fillRect(x, y, 30, 30);
+		f.setColor(255,0,0);
+		f.fillRect(x+10, y, 10, 10);
 		
 	}
 
