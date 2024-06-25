@@ -10,8 +10,8 @@ public class GameFrame extends MyFrame{
 		   GameWorld.playerBullets=new Vector<PlayerBullet>();
 		   GameWorld.enemies=new Vector<Enemy>();
 		   GameWorld.enemies.add(new EnemyBase(100,50,GameWorld.stage,0));
-		   GameWorld.enemies.add(new RandomEnemy(100,50,GameWorld.stage,0));
-		   GameWorld.enemies.add(new CurveEnemy(100,50,GameWorld.stage,0));
+		   GameWorld.enemies.add(new RandomEnemy(100,50,GameWorld.stage,1));
+		   GameWorld.enemies.add(new CurveEnemy(100,50,GameWorld.stage,1));
 		   GameWorld.enemies.add(new DropEnemy(100,50,1,GameWorld.stage));
 		   GameWorld.enterPressed=false;
 
