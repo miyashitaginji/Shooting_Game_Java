@@ -11,6 +11,7 @@ public class GameFrame extends MyFrame{
 		   GameWorld.enemies=new Vector<Enemy>();
 		   GameWorld.enemies.add(new EnemyBase(100,50,GameWorld.stage,0));
 		   GameWorld.enterPressed=false;
+		   
 
 		   while(true) {
 			   clear();
@@ -58,7 +59,9 @@ public class GameFrame extends MyFrame{
 			   i++;
 		   }
 	   }
-   } 
+   }
+   
+   
    public void movePlayerBullets(){
 	   int i=0;
 	   while(i<GameWorld.playerBullets.size()) {
